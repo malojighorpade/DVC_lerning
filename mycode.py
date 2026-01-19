@@ -4,10 +4,10 @@ import os
 data={'Name':['Alice', 'Bob', 'Charlie'], 'Age':[25, 30, 35], 'City':['New York', 'Los Angeles', 'Chicago']}
 df = pd.DataFrame(data)
 
-# new_row_loc={'Name':'David', 'Age':28, 'City':'San Francisco'
+new_row_loc={'Name':'David', 'Age':28, 'City':'San Francisco'
 
-# }
-# df.loc[len(df)] = new_row_loc
+}
+df.loc[len(df)] = new_row_loc
 
 # new_row_loc2={'Name':'Eva', 'Age':22, 'City':'Miami'}
 # df.loc[len(df)] = new_row_loc2
